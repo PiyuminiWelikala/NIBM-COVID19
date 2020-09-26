@@ -28,7 +28,7 @@ class HomeViewController: UIViewController {
     @IBAction func actionInfectedUser(_ sender: Any) {
         let refreshAlert = UIAlertController(title: "Do you have COVID-19 ", message: "Are you sure?", preferredStyle: UIAlertController.Style.alert)
 
-        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+        refreshAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { (action: UIAlertAction!) in
             self.sendPatientStatus()
         }))
 

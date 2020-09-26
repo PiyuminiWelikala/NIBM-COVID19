@@ -21,8 +21,6 @@ class InfectedUsersViewController: UIViewController {
     var countArray = [Int]()
     var studentEmail: [String] = [String]()
 
-    let players = ["Ozil", "Ramsey", "Laca", "Auba", "Xhaka", "Torreira"]
-    let goals = [6, 8, 26, 30, 8, 10]
 
     var userObj: User?
     var numberOfData = [PieChartDataEntry]()
